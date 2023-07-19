@@ -226,8 +226,10 @@ a{
     margin-bottom: 70px;
     
 }
-.social-logo > i{
-    padding: 0 10px;
+.scl{
+    padding: 2px 3px;
+    margin: 0 5px;
+
 }
 .cpr{
     text-align: center;
