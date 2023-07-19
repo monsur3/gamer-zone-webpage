@@ -36,7 +36,7 @@
 .nav-span, .footer-span{
     color: #FF42A5;
 }
-nav ul{
+.nav-ul{
     display: flex;
     align-items: center;
 }
@@ -236,6 +236,60 @@ a{
     padding-top: 30px;
     padding-bottom: 110px;
 }
-@media screen and (max-width: 576px) {
-    
+@media screen and (max-width: 576px) 
+{
+
+    .nav-container{flex-direction: column;
+        align-items: center;
+        margin: 0 auto;}   
+    .nav-ul{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .nav-ul > li{
+        padding-bottom: 40px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .banner{
+        padding: 0 100px;
+    }
+    .og-container{
+        margin: 0 100px;
+    }
+    .og-pic-container{
+        flex-direction: column;
+    }
+    .play-container{
+        flex-direction: column;
+        margin: 100px 0;
+    }
+    .play-pic{
+        margin: 0;
+ 
+    }
+    .games-container{
+        margin: 100px 0 ;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .foot-info{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .social-logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 300px;
+    }
+.foot-terms{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+    .cpr{
+        max-width: 250px;
+    }
+
 }
